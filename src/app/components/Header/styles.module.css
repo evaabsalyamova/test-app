@@ -1,0 +1,38 @@
+.container {
+    width: 1220px;
+    height: 72px;
+    padding-left: 29px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.logo {
+    /* font-family: Onest; */
+    font-size: 21.49px;
+    font-weight: 900;
+    line-height: 36.84px;
+    letter-spacing: 0.7674418687820435px;
+    text-align: center;
+    width: 161px;
+    height: 40px;
+    background-color: #FFF;
+    border-radius: 10px;
+    color: #1D1D1B;
+}
+
+.linksBlock {
+    display: flex;
+}
+
+.link {
+    /* font-family: Onest; */
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    width: 173px;
+    height: 44px;
+    color: #1D1D1B;
+}
