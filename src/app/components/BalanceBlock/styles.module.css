@@ -1,0 +1,29 @@
+.container {
+    height: 647px;
+    width: 100%;
+    background-color: #F2F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 1160px;
+    height: 447px;
+    text-align: center;
+}
+
+.title {
+    /* font-family: Onest; */
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: center;
+}
+
+.promoBanner {
+    width: 100%;
+    height: 261px;
+    margin-top: 80px;
+    display: flex;
+}

@@ -1,0 +1,28 @@
+.container {
+    width: 560px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FF5900;
+}
+
+.line {
+    width: 221px;
+    height: 2px;
+    background-color: #FF5900;
+}
+
+.image {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF5900;
+}
