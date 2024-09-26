@@ -36,3 +36,7 @@
     height: 44px;
     color: #1D1D1B;
 }
+
+.link:hover {
+    color: #E0570E;
+}

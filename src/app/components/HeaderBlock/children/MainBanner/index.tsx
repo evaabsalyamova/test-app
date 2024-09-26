@@ -10,7 +10,7 @@ const MainBanner: React.FunctionComponent = () => {
         Найдите идеальный баланс выручки и удовлетворённости пользователей
         с платформой рекламной монетизации
       </div>
-      <div className={styles.callButton}>Заказать звонок</div>
+      <button className={styles.callButton}>Заказать звонок</button>
     </div>
   );
 };

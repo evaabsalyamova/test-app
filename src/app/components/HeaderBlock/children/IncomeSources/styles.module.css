@@ -44,10 +44,18 @@
     color: #A4ADAC
 }
 
+.switcher:hover {
+    color: #1D1D1B;
+}
+
 .selectedSwitcher {
     composes: switcher;
     background-color: #1D1D1B;
-    color: #FFFFFF
+    color: #FFF;
+}
+
+.selectedSwitcher:hover {
+    color: #FFF;
 }
 
 .subTitle {
