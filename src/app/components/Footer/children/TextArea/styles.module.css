@@ -1,0 +1,23 @@
+.textArea {
+    width: 560px;
+    height: 100%;
+    padding: 14px;
+    border-radius: 12px;
+    border: 1px solid #A4ADAC;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    resize: none;
+}
+
+
+.textArea::placeholder {
+    color: #1D1D1B;
+}
+
+.textArea:focus {
+    outline: none;
+    border: 1px solid #1D1D1B;
+}

@@ -9,7 +9,6 @@
     width: 460px;
     height: 114px;
     left: 30px;
-    /* font-family: Onest; */
     font-size: 32px;
     font-weight: 700;
     line-height: 38.4px;
@@ -58,7 +57,6 @@
 }
 
 .subTitle {
-    /* font-family: Onest; */
     font-size: 22px;
     font-weight: 400;
     line-height: 32px;

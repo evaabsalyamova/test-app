@@ -3,6 +3,7 @@ import HeaderBlock from "./components/HeaderBlock";
 import BalanceBlock from "./components/BalanceBlock";
 import PartnersBlock from "./components/PartnersBlock";
 import ReportsBlock from "./components/ReportsBlock";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       <BalanceBlock />
       <PartnersBlock />
       <ReportsBlock />
-      <footer>s</footer>
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,21 @@
+.checkBoxBlock {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    margin-top: 32px;
+    height: 40px;
+}
+
+.checkBox {
+    width: 14px;
+    height: 14px;
+    margin-top: 4px;
+}
+
+.checkBoxText {
+    width: 438px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}

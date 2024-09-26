@@ -17,7 +17,6 @@
 }
 
 .title {
-    /* font-family: Onest; */
     font-size: 32px;
     font-weight: 700;
     line-height: 38.4px;
@@ -37,7 +36,6 @@
 }
 
 .featureText {
-    /* font-family: Onest; */
     font-size: 22px;
     font-weight: 400;
     line-height: 32px;
@@ -52,7 +50,6 @@
     padding: 12px 20px 12px 20px;
     gap: 10px;
     border-radius: 10px;
-    font-family: Onest;
     font-size: 14px;
     font-weight: 500;
     line-height: 24px;
