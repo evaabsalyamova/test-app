@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import IncomeSources from "./components/IncomeSources";
 import Header from "./components/Header";
 import MainBanner from "./components/MainBanner";
 import styles from "./styles.module.css";
@@ -36,6 +37,7 @@ export default function Home() {
         >
           <Header />
           <MainBanner />
+          <IncomeSources />
         </div>
       </div>
       <footer>s</footer>
