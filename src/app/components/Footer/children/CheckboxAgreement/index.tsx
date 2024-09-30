@@ -16,8 +16,10 @@ const CheckboxAgreement = () => {
         onChange={() => setIsChecked(!isChecked)}
       />
       <label className={styles.checkBoxText}>
-        Я ознакомлен(а) с политикой конфиденциальности и согласен(на) на
-        обработку персональных данных.
+        Я ознакомлен(а) с{" "}
+        <span className={styles.underlined}>политикой конфиденциальности</span>{" "}
+        и согласен(на) на обработку{" "}
+        <span className={styles.underlined}>персональных данных.</span>
       </label>
     </div>
   );
