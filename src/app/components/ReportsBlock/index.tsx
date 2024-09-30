@@ -10,7 +10,7 @@ const features = [
 
 const ReportsBlock: React.FunctionComponent = () => {
   return (
-    <div className={styles.container}>
+    <div id="reports" className={styles.container}>
       <div className={styles.content}>
         <div className={styles.title}>
           Подробные отчёты для вас и правообладателей

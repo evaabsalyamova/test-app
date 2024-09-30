@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 
 const BalanceBlock: React.FunctionComponent = () => {
   return (
-    <div className={styles.container}>
+    <div id="balance" className={styles.container}>
       <div className={styles.content}>
         <span className={styles.title}>
           Баланс между выручкой и удовлетворённостью пользователей
