@@ -1,14 +1,12 @@
 .container {
-    width: 100%;
+    width: 1220px;
     height: 40px;
-    padding-left: 110px;
     display: flex;
     justify-content: space-between;
     margin-top: 32px;
     position: sticky;
     top: 0px;
     z-index: 99;
-    background: #E8EDEE
 }
 
 .logo {

@@ -1,4 +1,5 @@
 .container {
+    position: relative;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -6,9 +7,10 @@
 }
 
 .banner {
+    width: 100%;
+    height: 771px;
     position: absolute;
     top: 67px;
-    left: 0;
     z-index: 0;
 }
 
@@ -18,4 +20,16 @@
     flex-direction: column;
     align-items: center;
     z-index: 1;
+}
+
+@media (max-width: 1440px) {
+    .componentsBlock {
+        width: 688px;
+    }
+}
+
+@media (max-width: 768px) {
+    .componentsBlock {
+        width: 288px;
+    }
 }
