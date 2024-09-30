@@ -6,7 +6,7 @@
 body {
   color: #1D1D1B;
   background: #E8EDEE;
-  font-family: Onest;
+  font-family: var(--font-onest-regular);
 }
 
 @layer utilities {
