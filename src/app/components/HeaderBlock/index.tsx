@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Header from "./children/Header";
 import IncomeSources from "./children/IncomeSources";
 import MainBanner from "./children/MainBanner";
 
@@ -17,7 +16,6 @@ const HeaderBlock: React.FunctionComponent = () => {
         />
       </div>
       <div className={styles.componentsBlock}>
-        <Header />
         <MainBanner />
         <IncomeSources />
       </div>
