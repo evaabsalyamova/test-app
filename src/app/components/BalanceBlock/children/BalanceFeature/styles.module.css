@@ -13,6 +13,7 @@
     font-weight: 700;
     line-height: 32px;
     text-align: left;
+    font-family: var(--font-onest-bold);
 }
 
 .subTitle {

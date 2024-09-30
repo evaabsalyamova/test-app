@@ -9,7 +9,6 @@
 
 .logo {
     font-size: 21.49px;
-    font-weight: 900;
     line-height: 36.84px;
     letter-spacing: 0.7674418687820435px;
     text-align: center;
@@ -17,6 +16,10 @@
     height: 40px;
     background-color: #FFF;
     border-radius: 10px;
+    font-family: var(--font-onest-bold);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .linksBlock {

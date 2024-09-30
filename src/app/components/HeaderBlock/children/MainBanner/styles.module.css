@@ -9,10 +9,10 @@
 
 .title {
     font-size: 80px;
-    font-weight: 700;
     line-height: 88px;
     letter-spacing: -0.04em;
     text-align: left;
+    font-family: var(--font-onest-bold);
 }
 
 .subTitle {

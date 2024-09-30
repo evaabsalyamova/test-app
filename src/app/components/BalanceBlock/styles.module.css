@@ -18,6 +18,7 @@
     font-weight: 700;
     line-height: 38.4px;
     text-align: center;
+    font-family: var(--font-onest-bold);
 }
 
 .promoBanner {
