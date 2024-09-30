@@ -18,7 +18,7 @@ const ReportsBlock: React.FunctionComponent = () => {
         <div className={styles.featuresList}>
           {features.map(({ text }, index) => (
             <div className={styles.feature} key={text + index}>
-              {icons.arrow}
+              <div className={styles.featureIcon}>{icons.arrow}</div>
               <div className={styles.featureText}>{text}</div>
             </div>
           ))}

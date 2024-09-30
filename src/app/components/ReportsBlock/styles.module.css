@@ -24,6 +24,7 @@
 }
 
 .featuresList {
+    width: 502px;
     margin-top: 32px;
     display: flex;
     flex-direction: column;
@@ -33,6 +34,11 @@
 .feature {
     display: flex;
     gap: 32px;
+}
+
+.featureIcon {
+    width: 24px;
+    height: 24px;
 }
 
 .featureText {
