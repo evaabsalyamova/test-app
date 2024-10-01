@@ -41,3 +41,48 @@
 .callButton:hover {
     background-color: #E0570E;
 }
+
+@media (max-width: 1439px) {
+    .container {
+        width: 688px;
+        margin-top: 96px;
+    }
+    .title {
+        font-size: 52px;
+        line-height: 57.2px;
+        letter-spacing: -0.04em;
+    }
+    .subTitle {
+        font-size: 14px;
+        line-height: 20px;
+        width: 393px;
+        margin-top: 32px;
+    }
+    .callButton {
+        margin-top: 60px;
+        width: 100%; 
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 288px;
+        margin-top: 67px;
+
+    }
+    .title {
+        font-size: 36px;
+        line-height: 39.6px;
+        letter-spacing: -0.04em;
+    }
+    .subTitle {
+        font-size: 16px;
+        line-height: 20.4px;
+        margin-top: 32px;
+        width: 100%;
+    }
+    .callButton {
+        margin-top: 112px;
+        width: 100%;
+    }
+}
