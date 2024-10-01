@@ -6,11 +6,11 @@ import MainBanner from "./children/MainBanner";
 import styles from "./styles.module.css";
 
 const HeaderBlock: React.FunctionComponent = () => {
-  const isDesktop = useMediaQuery({ maxWidth: 1440 });
-  const isTablet = useMediaQuery({ maxWidth: 768 });
+  const isTablet = useMediaQuery({ maxWidth: 1440 });
+  const isMobile = useMediaQuery({ maxWidth: 767 });
 
-  const imageWidthByViewport = isDesktop ? 1440 : isTablet ? 768 : 320;
-  const imageHeightByViewport = isDesktop ? 771 : isTablet ? 771 : 771;
+  const imageWidthByViewport = isMobile ? 320 : isTablet ? 768 : 1440;
+  const imageHeightByViewport = isTablet ? 771 : isMobile ? 771 : 771;
 
   return (
     <div className={styles.container}>

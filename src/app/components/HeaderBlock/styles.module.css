@@ -22,13 +22,13 @@
     z-index: 1;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
     .componentsBlock {
         width: 688px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .componentsBlock {
         width: 288px;
     }
