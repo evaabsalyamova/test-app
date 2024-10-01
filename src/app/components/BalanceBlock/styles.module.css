@@ -27,3 +27,46 @@
     margin-top: 80px;
     display: flex;
 }
+
+@media (max-width: 1439px) {
+    .container {
+        height: 471px;
+    }
+    .content {
+        width: 688px;
+        height: 317px;
+    }
+    .title {
+        font-size: 28px;
+        line-height: 33.6px;
+    }
+    .promoBanner {
+        height: 189px;
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        height: 740px;
+    }
+    .content {
+        width: 288px;
+        height: 698px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 31px;
+    }
+    .title {
+        font-size: 24px;
+        line-height: 30.6px;
+    }
+    .promoBanner {
+        margin-top: 0;
+        height: 523px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

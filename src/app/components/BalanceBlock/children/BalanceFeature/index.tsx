@@ -12,7 +12,7 @@ const BalanceFeature: React.FunctionComponent<IProps> = ({
 }) => {
   return (
     <div className={styles.container}>
-      {icons.arrow}
+      <div className={styles.icon}>{icons.arrow}</div>
       <div className={styles.title}>{title}</div>
       <div className={styles.subTitle}>{subTitle}</div>
     </div>
