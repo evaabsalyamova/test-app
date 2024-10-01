@@ -26,10 +26,20 @@
     .componentsBlock {
         width: 688px;
     }
+    .banner {
+        height: 600px;
+        top: 0;
+    }
 }
 
 @media (max-width: 767px) {
     .componentsBlock {
         width: 288px;
+        height: 850px;
+    }
+
+    .banner {
+        height: 200px;
+        top: 0;
     }
 }
