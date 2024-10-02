@@ -12,6 +12,24 @@
     resize: none;
 }
 
+@media (max-width: 1439px) {
+    .textArea {
+        width: 688px;
+        height: 220px;
+        padding: 16px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .textArea {
+        width: 288px;
+        height: 223px;
+        padding: 18px;
+        line-height: 17.85px;
+    }
+}
 
 .textArea::placeholder {
     color: #1D1D1B;

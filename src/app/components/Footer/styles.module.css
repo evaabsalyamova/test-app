@@ -36,7 +36,6 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
 }
 
 .sendFormButton {
@@ -53,4 +52,69 @@
 
 .sendFormButton:hover {
     background-color: #A4ADAC;
+}
+
+@media (max-width: 1439px) {
+    .container {
+        height: 620px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .content {
+        width: 688px;
+        height: 550px;
+        gap: 32px;
+        padding: 0;
+        margin-top: 25px;
+    }
+    .title {
+        font-size: 28px;
+        line-height: 33.6px;
+    }
+    .form {
+        height: 484px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .emailBlock {
+        width: 100%;
+        height: 232px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sendFormButton {
+        width: 100%;
+        margin-top: 64px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        height: 620px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .content {
+        width: 288px;
+        height: 533px;
+    }
+    .title {
+        font-size: 24px;
+        line-height: 30.6px;
+    }
+    .form {
+        height: 467px;
+    }
+    .emailBlock {
+        height: 212px;
+    }
+    .sendFormButton {
+        width: 100%;
+        margin-top: 32px;
+    }
 }

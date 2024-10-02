@@ -25,3 +25,14 @@
     text-decoration: underline;
     text-underline-offset: 3px;
 }
+
+
+@media (max-width: 767px) {
+    .checkBoxBlock {
+        gap: 6px;
+        height: 60px;
+    }
+    .checkBoxText {
+        line-height: 17.85px
+    }
+}
