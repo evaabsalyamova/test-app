@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { icons } from "@/app/icons";
 import styles from "./styles.module.css";
+import { useMediaQuery } from "react-responsive";
 
 const features = [
   { text: "Выручка, CTR, показы и другие показатели в реальном времени." },
@@ -9,6 +10,8 @@ const features = [
 ];
 
 const ReportsBlock: React.FunctionComponent = () => {
+  const isTablet = useMediaQuery({ maxWidth: 1439 });
+
   return (
     <div id="reports" className={styles.background}>
       <div className={styles.container}>
@@ -30,8 +33,8 @@ const ReportsBlock: React.FunctionComponent = () => {
           className={styles.image}
           src="https://pics.st/9e7/ee9/a7047f3e.png"
           alt="macbook"
-          width={661}
-          height={482}
+          width={isTablet ? 320 : 661}
+          height={isTablet ? 266 : 482}
         />
       </div>
     </div>

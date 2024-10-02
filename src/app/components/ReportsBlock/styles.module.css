@@ -80,3 +80,74 @@
     position: absolute;
     right: 0;
 }
+
+@media (max-width: 1439px) {
+    .background {
+        height: 471px;
+    }
+    .container {
+        width: 688px;
+    }
+    .content {
+        width: 334px;
+        height: 353px;
+    }
+    .title {
+        width: 250px;
+        font-size: 28px;
+        line-height: 33.6px;
+    }
+    .featuresList {
+        width: 338px;
+    }
+    .feature {
+        gap: 16px;
+    }
+    .featureIcon {
+        width: 18px;
+        height: 18px;
+    }
+    .featureText {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .callButton {
+        margin-top: 32px;
+    }
+}
+
+@media (max-width: 767px) {
+    .background {
+        height: 712px;
+    }
+    .container {
+        width: 288px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 24px;
+    }
+    .content {
+        width: 288px;
+        height: 370px;
+    }
+    .title {
+        width: 250px;
+        font-size: 24px;
+        line-height: 30.6px;
+    }
+    .featuresList {
+        width: 100%;
+    }
+    .featureText {
+        font-size: 14px;
+        line-height: 17.85px;
+    }
+    .callButton {
+        margin-top: 32px;
+        width: 100%;
+    }
+    .image {
+        position: static;
+        margin-top: 50px;
+    }
+}
